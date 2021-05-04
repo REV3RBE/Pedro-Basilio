@@ -153,6 +153,7 @@ a{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     transition: all .5s ease;
+    cursor: pointer;
 }
 
 .btn-menu button:hover{
@@ -219,6 +220,7 @@ a{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     transition: all .5s ease;
+    cursor: pointer;
 }
 
 .btn-cta button:hover{
@@ -534,6 +536,7 @@ a{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     transition: all .5s ease;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 2560px){
