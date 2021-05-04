@@ -959,6 +959,101 @@ a{
         font-size: 14px;
     }
 
+    .design-title{
+        margin-left: 130px;
+    }
+
+    .job-item-01{
+        margin-top: 25px;
+        margin-left: 40px;
+        margin-right: 10px;
+    }
+
+    .job-item-02{
+        margin-top: 25px;
+        margin-left: 40px;
+        margin-right: 10px;
+    }
+
+    .job-item-03{
+        margin-top: 25px;
+        margin-left: 40px;
+        margin-right: 10px;
+    }
+
+    .job-item-04{
+        margin-top: 25px;
+        margin-left: 40px;
+        margin-right: 10px;
+    }
+
+    .job-item-05{
+        margin-top: 25px;
+        margin-left: 40px;
+        margin-right: 10px;
+    }
+
+    .job-item-06{
+        margin-top: 25px;
+        margin-left: 40px;
+        margin-right: 10px;
+    }
+
+    .motion-title{
+        color: #f0f0f0;
+        margin-left: 50px;
+    }
+    
+    .motion-item-01{
+        display: flex;
+        justify-content: space-between;
+        background-color: #292929;
+        padding: 25px;
+        border-radius: 30px;
+        margin: 25px 10px;
+        flex-wrap: wrap;
+    }
+
+    .motion-item-02{
+        display: flex;
+        justify-content: space-between;
+        background-color: #292929;
+        padding: 25px;
+        border-radius: 30px;
+        margin: 25px 10px;
+        flex-wrap: wrap;
+    }
+
+    .motion-item-03{
+        display: flex;
+        justify-content: space-between;
+        background-color: #292929;
+        padding: 25px;
+        border-radius: 30px;
+        margin: 25px 10px;
+        flex-wrap: wrap;
+    }
+
+    .motion-item-04{
+        display: flex;
+        justify-content: space-between;
+        background-color: #292929;
+        padding: 25px;
+        border-radius: 30px;
+        margin: 25px 10px;
+        flex-wrap: wrap;
+    }
+
+    .motion-item-05{
+        display: flex;
+        justify-content: space-between;
+        background-color: #292929;
+        padding: 25px;
+        border-radius: 30px;
+        margin: 25px 10px;
+        flex-wrap: wrap;
+    }
+
 }
 
 @media screen and (max-width: 360px){
