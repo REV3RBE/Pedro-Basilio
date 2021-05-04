@@ -630,6 +630,27 @@ a{
         transition: all .5s ease;
     }
 
+    .thumbnail-01{
+        width: 1000px;
+    }
+
+    .thumbnail-02{
+        width: 890px;
+    }
+
+    .thumbnail-03{
+        width: 640px;
+    }
+
+    .thumbnail-04{
+        width: 800px;
+    }
+
+    .thumbnail-05{
+        width: 800px;
+    }
+
+
 }
 
 @media screen and (max-width: 1920px){
