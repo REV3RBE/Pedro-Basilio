@@ -528,7 +528,51 @@ a{
     font-size: 18px;
 }
 
-.play-video button{
+.play-video-01 button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: #f0f0f0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.play-video-02 button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: #f0f0f0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.play-video-03 button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: #f0f0f0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.play-video-04 button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: #f0f0f0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.play-video-05 button{
     padding: 10px 30px;
     border: none;
     border-radius: 50px;
@@ -753,6 +797,26 @@ a{
     .content-section-01 p{
         font-size: 20px;
     }
+
+    .thumbnail-01{
+        width: 1000px;
+    }
+
+    .thumbnail-02{
+        width: 890px;
+    }
+
+    .thumbnail-03{
+        width: 650px;
+    }
+
+    .thumbnail-04{
+        width: 780px;
+    }
+
+    .thumbnail-05{
+        width: 800px;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -859,6 +923,51 @@ a{
         background-size: cover;
         background-repeat: no-repeat;
     }
+
+    .motion-title{
+        margin-left: 50px;
+    }
+
+    .motion-item-01{
+        flex-wrap: wrap;
+    }
+
+    .thumbnail-01{
+        height: 350px;
+    }
+
+    .motion-item-02{
+        flex-wrap: wrap;
+    }
+
+    .thumbnail-02{
+        height: 350px;
+    }
+
+    .motion-item-03{
+        flex-wrap: wrap;
+    }
+
+    .thumbnail-03{
+        height: 350px;
+    }
+
+    .motion-item-04{
+        flex-wrap: wrap;
+    }
+
+    .thumbnail-04{
+        height: 350px;
+    }
+
+    .motion-item-05{
+        flex-wrap: wrap;
+    }
+
+    .thumbnail-05{
+        height: 350px;
+    }
+    
 }
 
 
@@ -1052,6 +1161,10 @@ a{
         border-radius: 30px;
         margin: 25px 10px;
         flex-wrap: wrap;
+    }
+
+    .thumbnail-01{
+        height: 250px;
     }
 
 }
