@@ -12,11 +12,22 @@
 </head>
 <body>
     <script>
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous">
+
         window.addEventListener('scroll', function(){
             let header = document.querySelector('header');
 
             header.classList.toggle('scrolling-effect', window.scrollY > 0);
         })
+
+        $(document).ready(function(){
+            $('.menu-mobile-button').click(function(){
+                $(this).toggleClass('active');
+                $('.nav-list').toggleClass('active');
+            });
+        });
 
     </script>
 
@@ -30,7 +41,7 @@
                     <img class src="Imagens/LOGO.png" alt="">
                 </a>
             </div> 
-            <ul class="nav-list">
+            <ul class="nav-list active">
                 <li class="nav-links">
                     <a href="#home">Home</a>
                 </li>
@@ -50,7 +61,7 @@
             <a href="#" class="btn-menu">
                 <button>Contato</button>
             </a>
-            <div class="menu-mobile-button">
+            <div class="menu-mobile-button active">
                 <i class="fas fa-align-right"></i>
             </div>
     </header>

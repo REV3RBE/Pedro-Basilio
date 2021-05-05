@@ -129,7 +129,7 @@ a{
 
 .nav-list{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-links{
@@ -847,6 +847,8 @@ a{
 
     .menu-mobile-button{
         display: block;
+        z-index: 999;
+        cursor: pointer;
     }
 
     .btn-menu{
@@ -854,7 +856,24 @@ a{
     }
 
     .nav-list{
-        display: none;
+        width: 100%;
+        max-width: 250px;
+        margin: 0;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        background-color: #202020;
+        flex-direction: column;
+        padding: 250px 20px;
+    }
+
+    .menu.active{
+        right: 0;
+    }
+
+    .nav-links{
+        margin-bottom: 25px;
     }
 
     .design-title{
