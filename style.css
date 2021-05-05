@@ -861,15 +861,16 @@ a{
         margin: 0;
         position: fixed;
         top: 0;
-        right: -100%;
+        right: 0;
         height: 100vh;
         background-color: #202020;
         flex-direction: column;
         padding: 250px 20px;
+        transition: all 0.5s ease;
     }
 
-    .menu.active{
-        right: 0;
+    .nav-list.active{
+        right: -100%;
     }
 
     .nav-links{
