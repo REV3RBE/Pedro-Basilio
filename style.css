@@ -583,6 +583,47 @@ a{
     cursor: pointer;
 }
 
+.content-section-04{
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title-section-04{
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color: #f0f0f0;
+    font-weight: normal;
+    font-size: 35px;
+}
+
+.content-section-04 p{
+    color: #f0f0f0;
+    font-weight: 200;
+    margin-bottom: 25px;
+    padding: 15px;
+}
+
+.sketch-cover{
+    height: 575px;
+    width: 440px;
+    margin: 0 auto;
+    border-radius: 30px;
+    background-image: url(Imagens/Sketch-Motion-Capa.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 35px;
+}
+
+.em-breve{
+    text-align: center;
+    color: #f0f0f0;
+    font-weight: normal;
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+
 @media screen and (max-width: 2560px){
     .section-01{
         width: 100%;
